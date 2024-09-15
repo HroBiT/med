@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-white">
+    <div className="relative h-1/2 bg-white">
       <main className="flex flex-col items-start justify-center px-6 py-12 lg:flex-row lg:items-center lg:justify-between lg:px-24 lg:py-24">
         <div className="max-w-lg">
           <h1 className="text-blue-600">Welcome</h1>
