@@ -7,6 +7,7 @@ import Activity from './components/activity/activity';
 import Info from './components/Info/Info';
 import Footer from './components/footer/footer';
 import Form from './components/form/form';
+import Coms from './components/coms/coms';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <App />
     <Activity/>
     <Info/>
+    <Coms/>
     <Form />
     <Footer />
   </React.StrictMode>

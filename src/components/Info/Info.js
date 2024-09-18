@@ -19,8 +19,8 @@ const Info = () => {
           </a>
         </div>
         <div className="w-1/2 flex">
-          <div className="w-1/2 pl-16 relative">
-            <img src="./lekarz.jpg" alt="lekarz" className="w-full  object-cover rounded-full shadow-lg" />
+          <div className="pl-16 relative">
+            <img src="./lekarz.jpg" alt="lekarz" className=" shadow-lg" />
           </div>
         </div>
       </div>
