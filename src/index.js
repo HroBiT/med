@@ -9,6 +9,7 @@ import Footer from './components/footer/footer';
 import Form from './components/form/form';
 import Coms from './components/coms/coms';
 import Pricing from './components/pircing/pircing';
+import Doctor from './components/doctor/doctor';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +19,7 @@ root.render(
     <App />
     <Activity/>
     <Info/>
-    
+    <Doctor/>
     <Pricing/>
     <Coms/>
     <Form />
