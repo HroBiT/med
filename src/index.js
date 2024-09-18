@@ -5,6 +5,8 @@ import App from './App';
 import Header from './components/Header/header';
 import Activity from './components/activity/activity';
 import Info from './components/Info/Info';
+import Footer from './components/footer/footer';
+import Form from './components/form/form';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +16,8 @@ root.render(
     <App />
     <Activity/>
     <Info/>
+    <Form />
+    <Footer />
   </React.StrictMode>
 );
 
