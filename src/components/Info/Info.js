@@ -7,7 +7,7 @@ const Info = () => {
         <div className="w-1/2">
           <div className="mb-4">
             <div className="w-12 h-1 bg-red-500 mb-2"></div>
-            <h1 className="text-4xl font-bold text-gray-800">Leading Medicine</h1>
+            <h1 className="mt-10 mr-10 text-4xl font-bold text-gray-800">Leading Medicine</h1>
           </div>
           <p className="text-gray-600 mb-4">
             Problems trying to resolve the conflict between<br />
@@ -20,7 +20,7 @@ const Info = () => {
         </div>
         <div className="w-1/2 flex">
           <div className="pl-16 relative">
-            <img src="./lekarz.jpg" alt="lekarz" className=" shadow-lg" />
+            <img src="./lekarz.jpg" alt="lekarz" className=" shadow-lg rounded-lg" />
           </div>
         </div>
       </div>

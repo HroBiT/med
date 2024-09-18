@@ -8,6 +8,7 @@ import Info from './components/Info/Info';
 import Footer from './components/footer/footer';
 import Form from './components/form/form';
 import Coms from './components/coms/coms';
+import Pricing from './components/pircing/pircing';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,8 @@ root.render(
     <App />
     <Activity/>
     <Info/>
+    
+    <Pricing/>
     <Coms/>
     <Form />
     <Footer />
